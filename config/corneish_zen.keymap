@@ -39,7 +39,7 @@
 &trans &kp GRAVE &kp AMPS &kp PLUS &kp EQUAL &kp AT        &kp EXCL    &kp ASTRK &kp HASH &kp SLASH &kp PIPE   &kp BSPC
 &trans &kp CARET &kp LBKT &kp LBRC &kp LPAR  &kp DLLR      &kp UNDER   &kp RPAR  &kp RBRC &kp RBKT  &kp MINUS  &kp GRAVE
 &trans &kp TILDE &kp BSLH &kp PRCT &kp AT    &kp LG(V)     &kp RC(B)   &kp EXCL  &kp LEFT &kp RIGHT &kp QMARK  &kp TILDE
-                              &mo FUNCTION &trans &trans    &kp DEL &trans &kp DOWN
+                              &none &trans &trans    &kp DEL &trans &kp DOWN
 
             >;
         };
