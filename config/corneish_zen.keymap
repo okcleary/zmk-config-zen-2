@@ -38,20 +38,20 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp GRAVE  &kp AMPS  &kp PLUS  &kp EQUAL  &none        &kp EXCL   &kp ASTRK  &kp HASH  &kp SLASH  &kp PIPE   &kp BSPC
-&trans  &kp CARET  &kp LBKT  &kp LBRC  &kp LPAR   &kp DLLR     &kp UNDER  &kp RPAR   &kp RBRC  &kp RBKT   &kp MINUS  &kp GRAVE
-&trans  &kp TILDE  &kp BSLH  &none     &kp AT     &kp LG(V)    &kp RC(B)  &kp EXCL   &kp LEFT  &kp RIGHT  &kp QMARK  &kp TILDE
-                             &none     &trans     &trans       &kp DEL    &trans     &kp DOWN
+&trans  &kp GRAVE  &kp AMPS  &kp PLUS  &kp EQUAL  &none        &kp EXCL   &kp ASTRK  &kp HASH  &kp SLASH  &kp PIPE   &trans
+&trans  &kp CARET  &kp LBKT  &kp LBRC  &kp LPAR   &kp DLLR     &kp UNDER  &kp RPAR   &kp RBRC  &kp RBKT   &kp MINUS  &trans
+&trans  &kp TILDE  &kp BSLH  &none     &kp AT     &kp LG(V)    &kp RC(B)  &kp EXCL   &kp LEFT  &kp RIGHT  &kp QMARK  &trans
+                             &trans    &trans     &trans       &kp DEL    &trans     &kp DOWN
             >;
         };
 
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &none   &none   &none     &none   &none        &kp N6    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none           &trans
-&trans  &none   &none   &none     &none   &none        &kp DOWN  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &studio_unlock  &none
-&trans  &trans  &trans  &trans    &trans  &trans       &trans    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3        &trans          &bt BT_CLR_ALL
-                        &kp LGUI  &trans  &kp SPACE    &kp RET   &trans           &kp RALT
+&trans  &none  &none  &none   &none   &none     &none   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none           &trans
+&trans  &none  &none  &none   &none   &none     &none   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &studio_unlock  &trans
+&trans  &none  &none  &none   &none   &none     &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3        &trans          &bt BT_CLR_ALL
+                      &trans  &trans  &trans    &trans  &trans           &kp KP_NUMBER_0
             >;
         };
     };
