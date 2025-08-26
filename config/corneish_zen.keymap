@@ -38,10 +38,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp GRAVE  &kp AMPS  &kp PLUS  &kp EQUAL  &none        &kp EXCL   &kp ASTRK  &kp HASH  &kp SLASH  &kp PIPE   &trans
-&trans  &kp CARET  &kp LBKT  &kp LBRC  &kp LPAR   &kp DLLR     &kp UNDER  &kp RPAR   &kp RBRC  &kp RBKT   &kp MINUS  &trans
-&trans  &kp TILDE  &kp BSLH  &none     &kp AT     &kp LG(V)    &kp RC(B)  &kp EXCL   &kp LEFT  &kp RIGHT  &kp QMARK  &trans
-                             &trans    &trans     &trans       &kp DEL    &trans     &kp DOWN
+&trans  &kp GRAVE  &kp AMPS  &kp PLUS     &kp EQUAL  &none        &kp EXCL   &kp ASTRK  &kp HASH  &kp SLASH  &kp PIPE   &trans
+&trans  &kp CARET  &kp LBKT  &kp LBRC     &kp LPAR   &kp DLLR     &kp UNDER  &kp RPAR   &kp RBRC  &kp RBKT   &kp MINUS  &trans
+&trans  &kp TILDE  &kp BSLH  &kp PERCENT  &kp AT     &kp LG(V)    &kp RC(B)  &kp EXCL   &kp LEFT  &kp RIGHT  &kp QMARK  &trans
+                             &trans       &trans     &trans       &kp DEL    &trans     &kp DOWN
             >;
         };
 
